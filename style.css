@@ -1,7 +1,7 @@
 /* Body and background */
 body {
   font-family: 'Arial', sans-serif;
- background-image: url("background.jpg")
+ background-image: url("background.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -90,5 +90,6 @@ button:hover {
     padding: 3vw;
   }
 }
+
 
 
