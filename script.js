@@ -15,9 +15,9 @@ const timeBoard = document.getElementById("time-board");
 const startBtn = document.getElementById("start-btn");
 const musicBtn = document.getElementById("music-btn");
 
-const bgMusic = document.getElementById("bg-music");
-const correctSound = document.getElementById("correct-sound");
-const wrongSound = document.getElementById("wrong-sound");
+const correctSound = new Audio("correct.mp3");
+const wrongSound = new Audio("wrong.mp3");
+const bgMusic = new Audio("background.mp3");
 
 let score = 0;
 let time = 60;
@@ -114,3 +114,4 @@ function createConfetti(score) {
         setTimeout(() => confetti.remove(), 1500);
     }
 }
+
